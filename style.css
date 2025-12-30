@@ -1,7 +1,7 @@
 hr {
   height: 5px;
-  border: 0; /* kill the default border */
-  background: #000; /* give the element something to “fill” */
+  border: 0;
+  background: #000;
   margin: 1rem 0;
 }
 

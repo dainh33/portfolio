@@ -1,0 +1,27 @@
+.f-700 {
+  font-weight: 700;
+}
+
+.f-400 {
+  font-weight: 400;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.fugaz {
+  font-family: "Fugaz One", sans-serif;
+}
+
+h1 {
+  font-size: 78px;
+}
+
+h2 {
+  font-size: 50px;
+}
+
+.underline {
+  text-decoration: underline;
+}

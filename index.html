@@ -4,18 +4,22 @@
 <head>
     <meta charset="utf-8">
     <title>Home</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./typography.css">
     <link rel="stylesheet" href="./style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap"
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fugaz+One&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg glass sticky-top">
         <div class="container-fluid mx-5 px-5">
-            <a class="navbar-brand" href="/">Dain Henry</a>
+            <a class="navbar-brand f-400 uppercase fugaz" href="/">Dain Henry</a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
                 aria-controls="mainNavbar" aria-expanded="false">
@@ -40,112 +44,160 @@
 </head>
 
 <body id="home">
-    <h1 class="text-center mt-5">Below are a few of the sites I've made for various clients during my internship at
-        Majority
-        Strategies.</h1>
-    <h2 class="text-center mb-5">I display the standard 1440px width layouts and mobile counterparts.</h2>
-    <hr>
-    <section>
+    <section class="py-5">
         <div class="container">
-            <div class="row justify-content-center">
-                <h1></h1>
-                <div class="col-lg-6 text-center">
-                    <img class="img-fluid" src="images/1_ehrhardt.PNG">
+            <div class="row">
+                <div class="col-lg-6 d-flex align-items-center justify-content-center mb-lg-0 mb-5">
+                    <div class="me-wrapper">
+                        <img class="me img-fluid" src="/images/me.jpg">
+                    </div>
                 </div>
-                <div class="col-lg-6 text-center">
-                    <img class="img-fluid" src="images/1_ehrhardt_m.PNG">
-                </div>
-            </div>
-        </div>
-    </section>
-    <hr>
-    <section>
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-lg-6 text-center">
-                    <img class="img-fluid" src="images/1_herndon.PNG">
-                </div>
-                <div class="col-lg-6 text-center">
-                    <img class="img-fluid" src="images/2_herndon.PNG">
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-6 text-center">
-                    <img class="img-fluid" src="images/3_herndon.PNG">
-                </div>
-                <div class="col-lg-6 text-center">
-                    <img class="img-fluid" src="images/4_herndon.PNG">
-                </div>
-            </div>
-            <div class="row justify-content-center mt-5">
-                <h2>Mobile</h2>
-                <hr>
-                <div class="col-lg-6 text-center">
-                    <img class="img-fluid" src="images/1_herndon_m.PNG">
-                </div>
-                <div class="col-lg-6 text-center">
-                    <img class="img-fluid" src="images/2_herndon_m.PNG">
-                </div>
-                <div class="col-auto">
-                    <img class="img-fluid" src="images/4_herndon_m.PNG">
-                </div>
-            </div>
-        </div>
-    </section>
-    <hr>
-    <section>
-        <div class="container">
-            <div class="row justify-content-center mt-5">
-                <h1></h1>
-                <div class="col-lg-6 text-center">
-                    <img class="img-fluid" src="images/1_killoran.PNG">
-                </div>
-                <div class="col-lg-6 text-center">
-                    <img class="img-fluid" src="images/2_killoran.PNG">
-                </div>
-            </div>
-            <div class="row justify-content-center mt-5">
-                <h2>Mobile</h2>
-                <hr>
-                <div class="col-lg-6 text-center">
-                    <img class="img-fluid" src="images/1_killoran_m.PNG">
-                </div>
-                <div class="col-lg-6 text-center">
-                    <img class="img-fluid" src="images/2_killoran_m.PNG">
-                </div>
-            </div>
-        </div>
-    </section>
-    <hr>
-    <section>
-        <div class="container">
-            <div class="row justify-content-center mt-5">
-                <div class="col-lg-6 text-center">
-                    <img class="img-fluid" src="images/1_murrill.PNG">
-                </div>
-                <div class="col-lg-6 text-center">
-                    <img class="img-fluid" src="images/2_murrill.PNG">
-                </div>
-            </div>
-            <div class="row justify-content-center mt-5">
-                <h2>Mobile</h2>
-                <hr>
-                <div class="col-lg-6 text-center">
-                    <img class="img-fluid" src="images/1_murrill_m.PNG">
-                </div>
-                <div class="col-lg-6 text-center">
-                    <img class="img-fluid" src="images/2_murrill_m.PNG">
-                </div>
-            </div>
-        </div>
-    </section>
-    <hr>
+                <div class="py-5 col-lg-6 d-flex align-items-center justify-content-center flex-column text-center">
+                    <h1 class="uppercase f-700 fugaz">Dain Henry</h1>
+                    <h2 class="uppercase f-700 fugaz">Web Developer</h2>
 
+                    <h4 class="text-muted mb-5">I specialize in building fast, accessible, and responsive web
+                        experiences
+                        from design to deployment.</h4>
+                    <a href="./about.html"><button class="btn btn-primary">Learn more about me here!</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="ticker glass" aria-label="Skills ticker">
+        <div class="ticker__track">
+            <div class="ticker__content">
+                <span>JavaScript</span>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Bootstrap</span>
+                <span>WordPress</span>
+                <span>React</span>
+                <span>PHP</span>
+                <span>Node.js</span>
+                <span>MySQL</span>
+                <span>Express</span>
+                <span>GitHub</span>
+                <span>Responsive Design</span>
+            </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+            <div class="ticker__content" aria-hidden="true">
+                <span>JavaScript</span>
+                <span>CSS</span>
+                <span>Bootstrap</span>
+                <span>WordPress</span>
+                <span>React</span>
+                <span>PHP</span>
+                <span>Node.js</span>
+                <span>MySQL</span>
+                <span>Express</span>
+                <span>GitHub</span>
+                <span>Responsive Design</span>
+            </div>
+        </div>
+    </div>
+    <section class="py-5">
+        <div class="container text-center">
+            <h2 class="uppercase f-700 fugaz underline">Past Work</h2>
+            <div class="row py-4">
+                <div class="col-12 col-lg-4">
+                    <button type="button" class="border-0 p-0" data-bs-toggle="modal" data-bs-target="#portfolioModal"
+                        data-title="Killoran" data-desktop="/images/killoran_d.jpeg"
+                        data-mobile="/images/killoran_m.jpeg">
+                        <img class="small-img w-100" src="/images/killoran_thumbnail.jpeg" loading="lazy">
+                    </button>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <button type="button" class="border-0 p-0" data-bs-toggle="modal" data-bs-target="#portfolioModal"
+                        data-title="herndon" data-desktop="/images/herndon_d.jpeg" data-mobile="/images/herndon_m.jpeg">
+                        <img class="small-img w-100" src="/images/herndon_thumbnail.jpeg" loading="lazy">
+                    </button>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <button data-bs-toggle="modal" data-bs-target="#killoran_d" class="border-0 p-0"><img
+                            class="small-img w-100" src="/images/killoran_thumbnail.jpeg" loading="lazy"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="modal border-0 mt-5" tabindex="-1" id="portfolioModal">
+        <div class="modal-dialog modal-90 bg-none border-0" id="portfolioModalDialog">
+            <div class="modal-content bg-none border-0 position-relative glass">
+                <div class="modal-header bg-none border-0 modal-overlay-header">
+                    <div class="d-flex align-items-center gap-2">
+                        <span class="text-white small fw-semibold">Desktop</span>
+
+                        <label class="switch mb-0">
+                            <input type="checkbox" id="portfolioViewToggle">
+                            <span class="slider"></span>
+                        </label>
+
+                        <span class="text-white small fw-semibold">Mobile</span>
+                    </div>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body p-0">
+                    <img class="full-img w-100 h-auto" id="portfolioModalImg" src="" alt="Project preview"
+                        data-desktop="" data-mobile="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
         crossorigin="anonymous"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const modalEl = document.getElementById("portfolioModal");
+            const img = document.getElementById("portfolioModalImg");
+            const dialog = document.getElementById("portfolioModalDialog");
+            const body = modalEl.querySelector(".modal-body");
+            const toggle = document.getElementById("portfolioViewToggle");
 
+            if (!modalEl || !img || !dialog || !body || !toggle) return;
+
+            function setView(view) {
+                if (view === "mobile") {
+                    img.src = img.dataset.mobile || img.dataset.desktop;
+                    body.classList.add("is-mobile");
+                    dialog.classList.add("modal-40");
+                    toggle.checked = true;
+                } else {
+                    img.src = img.dataset.desktop;
+                    body.classList.remove("is-mobile");
+                    dialog.classList.remove("modal-40");
+                    toggle.checked = false;
+                }
+            }
+
+            // Load correct images when opening from a thumbnail/card
+            modalEl.addEventListener("show.bs.modal", function (event) {
+                const trigger = event.relatedTarget;
+                if (!trigger) return;
+
+                img.dataset.desktop = trigger.getAttribute("data-desktop") || "";
+                img.dataset.mobile = trigger.getAttribute("data-mobile") || "";
+
+                setView("desktop"); // default every time
+            });
+
+            // Toggle change -> swap view
+            toggle.addEventListener("change", function () {
+                setView(toggle.checked ? "mobile" : "desktop");
+            });
+
+            // Reset on close
+            modalEl.addEventListener("hidden.bs.modal", function () {
+                img.src = "";
+                img.dataset.desktop = "";
+                img.dataset.mobile = "";
+                body.classList.remove("is-mobile");
+                dialog.classList.remove("modal-40");
+                toggle.checked = false;
+            });
+        });
+    </script>
 </body>
 
 </html>

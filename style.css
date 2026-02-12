@@ -206,6 +206,8 @@ hr {
 .small-img {
   border-radius: 30px !important;
   border: 5px solid black;
+  width: auto;
+  height: 200px !important;
 }
 
 @media screen and (max-width: 992px) {
@@ -214,5 +216,9 @@ hr {
     max-width: 90vw;
     height: 90vh;
     margin: auto;
+  }
+  .small-img {
+    height: 400px !important;
+    object-fit: cover !important;
   }
 }

@@ -84,9 +84,6 @@ hr {
   }
 }
 
-.small-img {
-}
-
 .modal-90 {
   width: 90vw;
   max-width: 90vw;
@@ -204,4 +201,9 @@ hr {
 
 .switch input:checked + .slider:before {
   transform: translateX(1.6em);
+}
+
+.small-img {
+  border-radius: 30px !important;
+  border: 5px solid black;
 }

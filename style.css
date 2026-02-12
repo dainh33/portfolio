@@ -207,3 +207,12 @@ hr {
   border-radius: 30px !important;
   border: 5px solid black;
 }
+
+@media screen and (max-width: 992px) {
+  .modal-40 {
+    width: 90vw;
+    max-width: 90vw;
+    height: 90vh;
+    margin: auto;
+  }
+}

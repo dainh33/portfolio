@@ -222,3 +222,10 @@ hr {
     object-fit: cover !important;
   }
 }
+
+.inter {
+  font-family: "Inter", sans-serif;
+}
+.grot {
+  font-family: "Space Grotesk", sans-serif;
+}
